@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
 
 .illustration{
     background-image: url(img/pont-alexandre3.png);
-    height: 100vh;
+    height: 80vh;
 }
 
 header{
@@ -19,7 +21,6 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        vertical-align: middle;
         ul{
             display: flex;
             flex-direction: row;
@@ -30,6 +31,21 @@ header{
                 text-decoration: none;
             }
         }
+    }
+}
+
+.illustration{
+    padding: 30px;
+    h1{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    hr{
+        width: 80%;
+        margin: 0 auto;
     }
 }
   
