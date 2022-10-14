@@ -9,7 +9,13 @@
 
 .illustration{
     background-image: url(img/pont-alexandre3.png);
+    background-size:cover;
     height: 80vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 header{
@@ -49,7 +55,28 @@ header{
     }
 }
   
-  div {
-    width: 120px;
-    height: 120px;
-  }
+.location{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    #test{
+        color: white;
+    }
+    p{
+        color: white;
+        margin: auto /* important */;
+        margin-left:10px ;
+        margin-right: 0px;
+        font-size: 1.2em;
+    }
+    a{
+        color: white;
+        margin: auto /* important */;
+        margin-left:10px ;
+        font-size: 1.2em;
+    }
+}
+
+.conteneur-desc{
+    margin-top: 30px;
+}
