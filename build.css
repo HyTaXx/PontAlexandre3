@@ -6,7 +6,36 @@
 }
 
 .illustration {
-  background-image: none;
+  background-image: url(img/pont-alexandre3.png);
+  height: 100vh;
+}
+
+header {
+  height: 80px;
+  background: white;
+  padding: 30px;
+}
+header nav {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  list-style-type: none;
+}
+header nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+div {
+  width: 120px;
+  height: 120px;
 }
 
 /*# sourceMappingURL=build.css.map */
