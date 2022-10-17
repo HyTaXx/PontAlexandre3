@@ -80,4 +80,20 @@ header nav ul a {
   margin-top: 30px;
 }
 
+.conteneur-desc2 {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  gap: 40px;
+}
+
+.split {
+  width: 50%;
+  align-items: center;
+}
+.split img {
+  object-fit: contain;
+  width: 100%;
+}
+
 /*# sourceMappingURL=build.css.map */
