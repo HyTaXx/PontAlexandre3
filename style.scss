@@ -77,6 +77,13 @@ header{
     }
 }
 
+.stock-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 .conteneur-desc{
     margin-top: 30px;
 }
@@ -94,5 +101,18 @@ header{
     img{
         object-fit: contain;
         width: 100%;
+    }
+}
+
+.grid-img{
+    margin: 40px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 40vh 40vh 40vh;
+    .imggrid{
+        height: 40vh;
+        object-fit: cover;
+        width: 40vh;
     }
 }
