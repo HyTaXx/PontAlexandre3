@@ -320,3 +320,29 @@ aside {
 aside p {
 	margin-bottom: 1em;
 }
+
+@media screen and (max-width:700px)
+{
+    .conteneur-desc2{
+        flex-direction: column;
+        .split{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .grid-img{
+        grid-template-columns: 1fr;
+    }
+
+    .cards{
+        padding: 10px;
+        margin-top: 80px;
+    }
+
+    .cards-cool{
+        padding: 10px;
+        padding-top: 80px;
+    }
+
+}
